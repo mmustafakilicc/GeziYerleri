@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_region_padding">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewRegionItemImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                android:src="@drawable/test" />
+
+            <TextView
+                android:id="@+id/textViewRegionItemName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorItemRegionImageOverlay"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="bottom"
+                android:letterSpacing="0.2"
+                android:padding="@dimen/item_region_padding"
+                android:text="@string/app_name"
+                android:textColor="@color/colorItemRegionText"
+                android:textSize="@dimen/item_region_text_size"
+                android:textStyle="bold" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

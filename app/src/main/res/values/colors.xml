@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#138D75</color>
+    <color name="colorPrimaryDark">#138D75</color>
+    <color name="colorSecondary">#138D75</color>
+<!--    <color name="colorAccent">#FF6D00</color>-->
+    <color name="colorAccent">#bf285f</color>
+
+    <color name="colorOnPrimary">#FAFAFA</color>
+    <color name="colorOnSecondary">#FAFAFA</color>
+
+    <color name="colorMainBackground">#DADADA</color>
+    <color name="colorToolbar">#138D75</color>
+
+    <color name="colorControlNormal">#FAFAFA</color>
+
+    <color name="colorTextDefault">#CC000000</color>
+
+    <color name="colorSurface">#FAFAFA</color>
+    <color name="colorOnSurface">#CC111111</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="colorRippleMain">#0E6A58</color>
+
+    <color name="colorToggleButtonText">#77111111</color>
+    <color name="colorToggleButtonStroke">#33000000</color>
+    <color name="colorToggleCheckedBackground">#CCbf285f</color>
+
+    //extras
+    <color name="colorItemRegionImageOverlay">#77000000</color>
+    <color name="colorItemRegionText">#FAFAFA</color>
+</resources>
